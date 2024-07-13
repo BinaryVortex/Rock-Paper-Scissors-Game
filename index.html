@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> 
+        <link rel="stylesheet" href="style.css">  
+        <title></title>
+</head>
+
+<body>
+<div class="container">
+  <p class="your-score">You: <span style="font-weight:600">0</span></p>   
+  <p class="computer-score">Computer: <span style="font-weight:600">0</span></p>
+  <div class="icons">
+    <div class="rock" onclick="getResult('rock')">
+       <i class="fa-regular fa-hand-back-fist"></i>      
+    </div> 
+    <div class="paper" onclick="getResult('paper')">
+       <i class="fa-regular fa-hand"></i>     
+    </div>
+    <div class="scissor" onclick="getResult('scissor')">
+      <i class="fa-regular fa-hand-scissors"></i>      
+    </div>
+  </div>
+ <div class="choices">
+      <p class="your-choice">You choose: <span style="font-weight:600">Rock</span></p>
+      <p class="computer-choice">Computer choose: <span style="font-weight:600">Paper</span></p>   
+ </div>  
+  <div class="result">
+    <span>You Win</span>      
+  </div>
+</div>
+<script src="script.js"></script>  
+</body>
+
+</html>
