@@ -1,10 +1,12 @@
 # Rock-Paper-Scissors Game
 
+![Game Screenshot](./Screenshot%202024-07-13%20180706.png)
+
 A simple, responsive Rock-Paper-Scissors game built with HTML, CSS, and JavaScript.
 
 ## About
 
-This project is a lightweight implementation of the classic Rock-Paper-Scissors game. The computer randomly chooses a move and the player selects theirs; the game then determines the winner and updates the score.
+This project is a lightweight implementation of the classic Rock-Paper-Scissors game. The computer randomly chooses a move and the player selects theirs; the game then determines the winner and updates the score between rounds.
 
 ## Features
 
